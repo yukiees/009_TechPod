@@ -7,11 +7,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITableViewDataSource {
 
+    //Storyboardで扱うTableViewの宣言
+    @IBOutlet weak var table: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        table.dataSource = self
+    }
+    
+    //セルの数を設定
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) ->Int{
+        return 10
+    }
+    
+    //ID付きのセルを取得して、セル付属のtextLabelに「テスト」と記述
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
+        
+        cell?.textLabel?.text = "テスト"
+        
+        return cell!
     }
 
 
