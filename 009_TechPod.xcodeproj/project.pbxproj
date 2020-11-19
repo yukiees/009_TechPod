@@ -15,6 +15,9 @@
 		9C38782B25661DED000B1222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C38782925661DED000B1222 /* LaunchScreen.storyboard */; };
 		9C38783625661DED000B1222 /* _09_TechPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C38783525661DED000B1222 /* _09_TechPodTests.swift */; };
 		9C38784125661DEE000B1222 /* _09_TechPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C38784025661DEE000B1222 /* _09_TechPodUITests.swift */; };
+		9C38785525669A37000B1222 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C38785225669A37000B1222 /* cannon.mp3 */; };
+		9C38785625669A37000B1222 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C38785325669A37000B1222 /* elise.mp3 */; };
+		9C38785725669A37000B1222 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C38785425669A37000B1222 /* aria.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		9C38783C25661DEE000B1222 /* 009_TechPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 009_TechPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C38784025661DEE000B1222 /* _09_TechPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _09_TechPodUITests.swift; sourceTree = "<group>"; };
 		9C38784225661DEE000B1222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C38785225669A37000B1222 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		9C38785325669A37000B1222 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		9C38785425669A37000B1222 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		9C38781D25661DE8000B1222 /* 009_TechPod */ = {
 			isa = PBXGroup;
 			children = (
+				9C38785125669A37000B1222 /* Songs */,
 				9C38781E25661DE8000B1222 /* AppDelegate.swift */,
 				9C38782025661DE8000B1222 /* SceneDelegate.swift */,
 				9C38782225661DE8000B1222 /* ViewController.swift */,
@@ -126,6 +133,16 @@
 				9C38784225661DEE000B1222 /* Info.plist */,
 			);
 			path = 009_TechPodUITests;
+			sourceTree = "<group>";
+		};
+		9C38785125669A37000B1222 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				9C38785225669A37000B1222 /* cannon.mp3 */,
+				9C38785325669A37000B1222 /* elise.mp3 */,
+				9C38785425669A37000B1222 /* aria.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +249,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C38782B25661DED000B1222 /* LaunchScreen.storyboard in Resources */,
+				9C38785525669A37000B1222 /* cannon.mp3 in Resources */,
+				9C38785625669A37000B1222 /* elise.mp3 in Resources */,
 				9C38782825661DED000B1222 /* Assets.xcassets in Resources */,
 				9C38782625661DE8000B1222 /* Main.storyboard in Resources */,
+				9C38785725669A37000B1222 /* aria.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
